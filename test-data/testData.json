@@ -1,0 +1,74 @@
+{
+    "validUser":{
+        "name": "Saliha",
+        "email": "salihasuhail@gmail.com",
+        "address1": "Aluva",
+        "address2": "Vazhakkala"
+    },
+
+    "emptyUser":{
+        "name": "",
+        "email": "",
+        "address1": "",
+        "address2": ""
+    },
+
+    "invalidLogin":{
+        "UserName":"Sam",
+        "Password": "Sam123"
+
+    },
+
+    "practiceFormUser":{
+    "firstName": "Saliha",
+    "lastName": "Beevi",
+    "email": "saliha@gmail.com",
+    "mobile": "9889098274",
+    "dateOfBirth": "1996-08-11",
+    "currentAddress":"Ernakulam"
+    },
+    
+    "invalidEmailUser":{
+    "firstName": "Saliha",
+    "lastName": "Beevi",
+    "email": "salihagmailcom",
+    "mobile": "9889098131",
+    "dateOfBirth": "1996-12-11",
+    "currentAddress":"Ernakulam"
+    },
+
+    "emptyPracticeFormuser":{
+     "firstName": "",
+    "lastName": "",
+    "email": "",
+    "mobile": "",
+    "dateOfBirth": "",
+    "currentAddress":"" 
+    },
+
+
+    "hobbies":[
+        "Sports",
+        "Reading",
+        "Music"
+    ],
+
+    "states": [
+    "NCR",
+    "Uttar Pradesh",
+    "Haryana",
+    "Rajasthan"
+  ],
+
+  "cities": [
+    "Delhi",
+    "Gurgaon",
+    "Noida"
+  ],
+
+  "gender":[
+    "Male",
+    "Female",
+    "Other"
+  ]
+}
