@@ -11,6 +11,7 @@ test('Registration with valid details',async({Manager,page})=>{
     await practiceForm.goto();
     await practiceForm.openPracticeFormPage();
     await expect(page).toHaveURL(/practice-form/);  
+    
     await practiceForm.formdetails(testData.practiceFormUser);
     await practiceForm.selectHobbies("Reading");
     await practiceForm.selectGender("Female");

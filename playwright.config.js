@@ -3,7 +3,7 @@ const { expect, chromium } = require("@playwright/test");
 const config=({
   testDir:'./tests',
   
-  workers:3,
+  workers:1,
 
 
   timeout:40*1000,
@@ -19,8 +19,8 @@ const config=({
 name:'chrome',
   use:{
     browserName:'chromium',
-    headless:false,
-ignoreHTTPSerrors:true,
+    headless:true,
+ignoreHTTPSErrors:true,
 screenshot:'only-on-failure',
 trace:'retain-on-failure',
 video:'retain-on-failure',
